@@ -1,2 +1,17 @@
-language = "cpp"
-run = ""
+language = "CPP" # optional
+
+#Capitulo 1 Atividade 1
+#run = "clang++-7 -pthread -std=c++17 -o Chapter01/Activity01/Activity01 Chapter01/Activity01/Activity01.cpp && ./Chapter01/Activity01/Activity01"
+
+#Capitulo 1 Exercicio 1
+#run = "clang++-7 -pthread -std=c++17 -o Chapter01/Exercise01/Exercise01 Chapter01/Exercise01/myExercise01.cpp && ./Chapter01/Exercise01/Exercise01"
+
+#Capitulo 1 Exemples p1
+#run = "clang++-7 -pthread -std=c++17 -o Chapter01/Exemples/myKeywords Chapter01/Exemples/myKeyWords.cpp && ./Chapter01/Exemples/myKeywords"
+
+
+#Capitulo 1 Exemples p2
+run = "clang++-7 -v -pthread -std=c++17 -o Chapter01/Exemples/myPreprocessorDirectives Chapter01/Exemples/myPreprocessorDirectives.cpp Chapter01/Exemples/myAdd.cpp && ./Chapter01/Exemples/myPreprocessorDirectives"
+
+
+
